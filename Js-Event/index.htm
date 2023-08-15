@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM Event</title>
+    <style>
+        button{
+            width: 100px;
+            height: 50px;
+            font-size: large;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>JS Event listener</h1>
+        <!-- Option 1 Directly set on the HTML element -->
+        <button onclick="document.body.style.backgroundColor='yellow'">Yellow</button>
+        <!-- Option 2 is create a function then call the function on buttons onclick -->
+        <button onclick="makeRed()">Red</button>
+        <!-- Option 3---look in the js file -->
+        <button id = "make-blue">Blue</button>
+        <!-- Option 4---look in the js file -->
+        <button id="make-green">Green</button>
+        <!-- Option 5--look in js file -->
+        <button id="make-aqua">Aqua</button>
+        <button id="make-pink">Pink</button>
+        <button id="make-purple">Purple</button>
+    </main>
+    <footer></footer>
+    <script src="./event.js"></script>
+</body>
+</html>
